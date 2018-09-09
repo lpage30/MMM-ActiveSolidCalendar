@@ -45,26 +45,16 @@
 
 
 .CALEXT .slot {
-    margin-left:5px;
-    margin-right:5px;
-    flex-grow: 1;
-    flex-basis: 100px;
-    box-sizing:border-box;
-    margin-bottom:5px;
+  max-width:13%;
+  flex-basis:13%;
 }
 
 
 
-.CALEXT .slot .header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: baseline;
-    align-content: flex-end;
-    border-bottom: 2px solid #CCC;
-    padding:2px;
-    margin-bottom:0;
-    border-radius:15px 15px 0 0;
+.CALEXT .slot .header  {
+  font-size:1.0em;
+  border-radius:0;
+  font-weight:bold;
 }
 
 .CALEXT .slot .header > * {
@@ -213,9 +203,9 @@
 }
 
 .CALEXT .eventContent {
-    order:2;
-    width:100%;
     text-align:left;
+    font-size:0.8em;
+    font-weight:normal;
 }
 
 .CALEXT .upcoming .eventTime {
@@ -229,8 +219,9 @@
 
 
 .CALEXT .tableStyle {
-    margin:auto;
-    max-width: 90%;
+    margin:0;
+    max-width: 100%;
+    background-color: black;
 }
 
 
@@ -247,9 +238,9 @@
 
 
 .CALEXT .tableStyle .eventContent {
-    text-overflow:ellipsis;
+    text-align:left;
+    font-size:0.8em;
     font-weight:normal;
-    font-size:70%;
 }
 
 
@@ -362,16 +353,12 @@
 */
 /*
 .CALEXT  .eventLocation,
-.CALEXT  .eventTime {
-    display:none;
-}
+.CALEXT  .eventTime,
 */
 
 
 .CALEXT .tableStyle .eventLocation,
-.CALEXT .tableStyle .eventTime {
-    display:none;
-}
+.CALEXT .tableStyle .eventTime,
 
 
 
@@ -381,11 +368,7 @@
 }
 
 .CALEXT  .event .symbol {
-    order:1;
-    display:block;
-    flex-basis:20px;
-    text-align:center;
-    min-width:20px;
+    display:none;
 }
 
 .CALEXT   .events .symbol.emoji {

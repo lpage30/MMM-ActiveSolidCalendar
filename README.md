@@ -1,5 +1,8 @@
-# MMM-CalendarExt
+# MMM-ActiveSolidCalendar
+(based on MMM-CalendarExt)
 Alternative calendar module for [MagicMirror](https://magicmirror.builders/)
+The MMM-CalendarExt is GREAT, but I required some additional CSS changes to have a more clean, full-screen, solid look.
+Also, it is my intent to introduce (eventually) popups when 'clicking' on a day, and allow for a smaller window for the calender with a scroll bar. These more active features would allow you to render a larger calendar in a smaller space, and have you 'scroll' through the months.
 
 ## Screenshots
 ![](https://github.com/eouia/MMM-CalendarExt/blob/master/screencaptures/monthly_home.png)

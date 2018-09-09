@@ -3,7 +3,7 @@
 //
 
 
-Module.register("MMM-CalendarExt", {
+Module.register("MMM-ActiveSolidCalendar", {
   events: [],
   instantEvents: [],
   CurrentConfigs: {},
@@ -671,7 +671,7 @@ Module.register("MMM-CalendarExt", {
 
   draw: function() {
     if(!this.isInit) return
-    var target = document.getElementsByClassName('MMM-CalendarExt')
+    var target = document.getElementsByClassName('MMM-ActiveSolidCalendar')
     if (target.length > 0) {
       if (target[0].style.position == "fixed") {
         return

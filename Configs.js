@@ -3,7 +3,7 @@ var DEFAULT_CONFIG = {
 		useProfileConfig: 0,
 		startProfile: "",
 		showEmptyView: 1,
-		local: 'en-US',
+		locale: 'en-US',
 		show: ["weeks"],
 		fullDayEventLocalize: 1,
 		redrawInterval: 30*60*1000, //minimum 60000

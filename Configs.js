@@ -54,7 +54,7 @@ var DEFAULT_CONFIG = {
 			weekdayFormat: "dddd",
 			titleFormat: "MMM D",
 			overTitleFormat: "MMM D",
-			counts: 15,
+			counts: 52,
 		},
 	},
 	calendars: [],
